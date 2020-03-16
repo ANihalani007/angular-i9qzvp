@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
-import { AppComponent } from './app.component';
+import { EventsAppComponent } from './events-app.component';
 import { MediaItemComponent } from './media-item/media-item.component';
 
 
@@ -10,7 +10,7 @@ import { MediaItemComponent } from './media-item/media-item.component';
 
 @NgModule({
   imports:      [ BrowserModule ],
-  declarations: [ AppComponent, MediaItemComponent ],
-  bootstrap:    [ AppComponent ]
+  declarations: [ EventsAppComponent, MediaItemComponent ],
+  bootstrap:    [ EventsAppComponent ]
 })
 export class AppModule { }
